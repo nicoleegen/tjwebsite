@@ -1,17 +1,20 @@
 <div id="navigation">
   <div class="row">
       <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-        <div class="navigation-logo">
+       <!--  <div class="navigation-logo">
           <a class="navigation-logo-link" href="/">
             <span>TANJA EGEN</span>
           </a>
-        </div>
+        </div> -->
         <ul class="navigation-items">
-          <li class="navigation-item">
-            <%= link_to "documentaries", docu_path, class: "nav-link" %>
+          <li class="navigation-item navigation-logo-link">
+            <%= link_to "TANJA EGEN", href="/" , class: "nav-link" %>
           </li>
           <li class="navigation-item">
             <%= link_to "film", film_path, class: "nav-link" %>
+          </li>
+          <li class="navigation-item">
+            <%= link_to "documentaries", docu_path, class: "nav-link" %>
           </li>
           <li class="navigation-item">
             <%= link_to "music videos", mv_path, class: "nav-link" %>
